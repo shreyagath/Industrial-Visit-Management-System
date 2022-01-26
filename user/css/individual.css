@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap');
+
+html * {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper{
+	background-color: white;
+	height: 0vh;
+}
+
+.navbar{
+	position: fixed;
+	height: 40px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #fff;
+}
+.logo{
+	width: 120px;
+	margin-left:1%;
+	cursor: pointer;
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	color: white;
+	font-size: 20px;
+  border-radius: 50px;
+}
+
+body {
+	background: #fff;
+	font-size: 16px;
+	line-height: 1;
+	font-family: 'Montserrat', sans-serif;
+	color: #555;
+}
+
+header {
+	position: relative;
+	padding: 35px 0;
+	background-color: #fff;
+}
+
+
+.form-control::-moz-placeholder {
+	color: #999;
+	opacity: 1;
+}
+
+.form-control::-webkit-input-placeholder {
+	color: #999;
+}
+
+input.form-control,
+select.form-control,
+textarea.form-control {
+	background: none;
+	background-color: #fff;
+	border: none;
+	border-bottom: 2px solid #e8ebed;
+	border-radius: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	height: 44px;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 25px;
+	padding: 6px 12px 6px 0;
+}
+
+.box_style_2 {
+	border: 1px solid #949494;
+	border-radius: 35px;
+	padding: 40px 40px 40px 35px;
+	position: relative;
+	width: 100%;
+}
+
+.margin_60_35 {
+	width: 100%;
+    padding: 30px 0px 35px 0px;
+}
+
+.containerr{
+	width: 95%;
+	margin: 0px 40px 0px 50px;
+	height: 70vh;
+}
+
+#message-contact{
+	display: flex;
+	justify-content:left;
+	align-items:left;
+	margin-top: 20px;
+	color:white;
+	height: 8vh;
+	background: linear-gradient(89.97deg, #2F0487 3.33%, #857DED 88.47%);
+	width: 100%;
+	font-size: 1.8rem;
+	padding: 15px;
+}
+
+.left-bar{
+	margin-top: 22px;
+    line-height: 3rem;
+}
+input { outline: none; }

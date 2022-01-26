@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+   
+<div class="container" id="container">
+<div class="form-container sign-container">
+    
+    
+    <form action="../backend/usignup.php"  method="POST" onsubmit="return validate(this);">
+	    <h1>Create Account</h1>
+        <div class="social-container">
+            <a href="#" class="social"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="social"><i class="fa fa-google"></i></a>
+            <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+        </div>
+        <span>or use your email for registration</span>
+        
+        <input type="text" name="username" placeholder="Username" pattern="^[a-zA-Z0-9\s]*$" title="Must contain uppercase/lowercase letter"  required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="password" name="cpass" placeholder="Confirm Password" required>
+        <button inputmode="submit">SignUp</button>
+    </form>
+ </div>
+ 
+<div class="overlay-container">
+    <img src="../images/company.jpg">
+</div>
+</div>
+
+</div>
+
+</body>
+</html>

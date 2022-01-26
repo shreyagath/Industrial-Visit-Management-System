@@ -1,0 +1,73 @@
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+	font-family: 'Montserrat', sans-serif;
+	user-select: none;
+}
+.center h3{
+	color: black;
+	font-size: 35px;
+	width: 700px;
+	font-family: 'Montserrat', sans-serif;
+	text-align:center;
+}
+.center .button{
+	margin: 40px 170px 30px;
+}
+
+.button .ab
+{
+    background: linear-gradient(93.78deg, #009FFD -10.34%, #2A2A72 126.02%);
+	border-radius: 12px;
+	color: white;
+	text-decoration: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 30px;
+	letter-spacing: 2.5px;
+}
+
+.button .ac
+{
+	background: linear-gradient(93.61deg, #EC9F05 -3.59%, #FF4E00 115.07%);border-radius: 25px;
+	border-radius: 12px;
+	color: white;
+	right: 300px;
+	text-decoration: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 30px;
+	letter-spacing: 2.5px;
+}
+
+
+.button .ad
+{
+	background: linear-gradient(89.97deg, #2F0487 3.33%, #857DED 88.47%);
+	border-radius: 12px;
+	color: white;
+	right: 200px;
+	text-decoration: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 30px;
+	letter-spacing: 2.5px;
+}
+
+.wrapper .vac{
+	position: absolute;
+	left: 55%;
+	top: 95%;
+	transform: translate(-50%, -50%);
+	font-family: 'Montserrat', sans-serif;
+	user-select: none;
+	font-size: 25px;
+}

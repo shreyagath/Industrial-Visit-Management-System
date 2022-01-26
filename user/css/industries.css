@@ -1,0 +1,395 @@
+.wrapper .center{
+	position: absolute;
+	left: 50%;
+	top: 18%;
+	transform: translate(-50%, -50%);
+	font-family: 'Montserrat', sans-serif;
+	user-select: none;
+}
+
+.center .buttons{
+	margin: 0px 205px;
+}
+.search-btn{
+  margin-top: 2.5%;
+	height: 50px;
+	width: 1290px;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 650;
+	color:silver;
+	background:transparent;
+	outline: none;
+    text-align: left;
+	border: 1px solid silver;
+	border-radius: 30px;
+    background:url("search.png");
+    background-repeat: no-repeat;
+    background-position: right 45%;
+    background-size: 20px;
+}
+
+.industry-item {
+  border: 1px solid #BEBEBE;
+  border-color: silver;
+  background-color: #F9F9F9;
+  border-radius: 20px;
+  margin-top: 190px;
+  margin-bottom: 10px;
+  padding: 20px 45px 50px;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+@media only screen and (max-width: 600px) {
+  .industry-item {
+    padding: 30px 28px 29px;
+  }
+}
+.industry-item .industry-info {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*.industry-item .industry-info img {
+  border-radius: 5px;
+  min-width: 20px;
+}*/
+
+.industry-item .industry-info img {
+  min-width: auto;
+  width:80px;
+  height:40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .industry-item .industry-info img {
+    min-width: auto;
+    width: 10px;
+  }
+}
+.industry-item .industry-info .content {
+  margin-left: 30px;
+  margin-top: -1px;
+}
+@media only screen and (max-width: 600px) {
+  .industry-item .industry-info .content {
+    margin-left: 14px;
+  }
+}
+.industry-item .industry-info .name {
+  color: #272a33;
+  font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+  margin-bottom: 9px;
+}
+@media only screen and (max-width: 600px) {
+  .industry-item .industry-info .name {
+    font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+  }
+}
+.industry-item .industry-info .name a {
+  color: #272a33;
+}
+.industry-item .industry-info .name a:hover {
+  color: #03a84e;
+}
+.industry-item .industry-info .address {
+  font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+  line-height: 1;
+}
+@media only screen and (max-width: 600px) {
+  .industry-item .industry-info .address {
+    font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+  }
+}
+.industry-item .main-content {
+  margin: 24px 0 20px;
+}
+.industry-item .main-content .title {
+  color: #272a33;
+  font-size: 24px;  
+	font-family: 'Montserrat', sans-serif;
+  margin-bottom: 12px;
+}
+@media only screen and (max-width: 600px) {
+  .industry-item .main-content .title {
+    font-size: 18px;
+  }
+}
+.industry-item .main-content .title a {
+  color: #272a33;
+}
+.industry-item .main-content .title a:hover {
+  color: #03a84e;
+}
+.industry-item .main-content .work-type {
+  color: #03a84e;
+  font-size: 16px;  
+	font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .industry-item .main-content .work-type {
+    font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+  }
+}
+.industry-item .main-content .desc {
+  font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+  line-height: 1.87;
+  max-width: 234px;
+}
+@media only screen and (max-width: 600px) {
+  .industry-item .main-content .desc {
+    font-size: 13px;
+	font-family: 'Montserrat', sans-serif;
+    max-width: none;
+  }
+}
+.industry-item .industry-info {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.industry-item .industry-info .salary {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+	font-family: 'Montserrat', sans-serif;
+}
+.industry-item .industry-info .salary h4 {
+  font-size: 22px;
+  line-height: 1;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 600px) {
+  .industry-item .industry-info .salary h4 {
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.industry-item1 {
+  border: 1px solid #BEBEBE;
+  border-color: silver;
+  background-color: #F9F9F9;
+  border-radius: 20px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+  padding: 20px 45px 50px;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+@media only screen and (max-width: 600px) {
+  .industry-item1 {
+    padding: 30px 28px 29px;
+  }
+}
+.industry-item1 .industry-info {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*.industry-item1 .industry-info img {
+  border-radius: 5px;
+  min-width: 50px;
+}*/
+
+.industry-item1 .industry-info img {
+  min-width: auto;
+  width:75px;
+  height:40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .industry-item1 .industry-info img {
+    min-width: auto;
+    width: 10px;
+  }
+}
+.industry-item1 .industry-info .content {
+  margin-left: 30px;
+  margin-top: -1px;
+}
+@media only screen and (max-width: 600px) {
+  .industry-item1 .industry-info .content {
+    margin-left: 14px;
+  }
+}
+.industry-item1 .industry-info .name {
+  color: #272a33;
+  font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+  margin-bottom: 9px;
+}
+@media only screen and (max-width: 600px) {
+  .industry-item1 .industry-info .name {
+    font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+  }
+}
+.industry-item1 .industry-info .name a {
+  color: #272a33;
+}
+.industry-item1 .industry-info .name a:hover {
+  color: #03a84e;
+}
+.industry-item1 .industry-info .address {
+  font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+  line-height: 1;
+}
+@media only screen and (max-width: 600px) {
+  .industry-item1 .industry-info .address {
+    font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+  }
+}
+.industry-item1 .main-content {
+  margin: 24px 0 20px;
+}
+.industry-item1 .main-content .title {
+  color: #272a33;
+  font-size: 24px;  
+	font-family: 'Montserrat', sans-serif;
+  margin-bottom: 12px;
+}
+@media only screen and (max-width: 600px) {
+  .industry-item1 .main-content .title {
+    font-size: 18px;
+  }
+}
+.industry-item1 .main-content .title a {
+  color: #272a33;
+}
+.industry-item1 .main-content .title a:hover {
+  color: #03a84e;
+}
+.industry-item1 .main-content .work-type {
+  color: #03a84e;
+  font-size: 16px;  
+	font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .industry-item1 .main-content .work-type {
+    font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+  }
+}
+.industry-item1 .main-content .desc {
+  font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+  line-height: 1.87;
+  max-width: 234px;
+}
+@media only screen and (max-width: 600px) {
+  .industry-item1 .main-content .desc {
+    font-size: 13px;
+	font-family: 'Montserrat', sans-serif;
+    max-width: none;
+  }
+}
+.industry-item1 .industry-info {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.industry-item1 .industry-info .salary {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 12px;
+	font-family: 'Montserrat', sans-serif;
+}
+.industry-item1 .industry-info .salary h4 {
+  font-size: 22px;
+  line-height: 1;
+  margin-bottom: 0;
+}
+@media only screen and (max-width: 600px) {
+  .industry-item1 .industry-info .salary h4 {
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.btn-theme {
+  color: #151515;  
+  border: 1px solid;
+  border-color: #151515;
+  border-radius: 15px;
+  display: inline-block;
+  font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+  padding: 8px 20px 8px;
+  text-align: center;
+}
+.btn-theme.btn-sm {
+  height: 38px;
+  padding: 4px 2px 6px;
+  width: 110px;
+}
+@media only screen and (max-width: 600px) {
+  .btn-theme.btn-sm {
+    height: 34px;
+    padding: 4px 2px 4px;
+    width: 90px;
+    font-size: 13px; 
+  	font-family: 'Montserrat', sans-serif;
+  }
+}
+.btn-theme.btn-white {
+  background-color: #fff;
+  border: 1px solid rgba(3, 168, 78, 0.18);
+  color: #151515;
+}
+.btn-theme.btn-white:hover {
+  background-color: #151515;
+  border-color: #151515;
+  color: #151515;
+}
+.btn-theme:hover {
+  background-color: #fff;
+  border: 1px solid #151515;
+  color: #151515;
+}
+

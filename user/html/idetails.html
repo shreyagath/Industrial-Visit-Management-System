@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Details</title>
+    <link rel="stylesheet" href="../css/idetails.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Industry Details</h1>
+      <form method="post" action="../backend/idetails.php">
+        <div class="txt_field">
+          <input type="text" name="iname" required>
+          <span></span>
+          <label>Industry Name</label>
+        </div>
+        <div class="txt_field">
+            <input type="text" name="city" required>
+            <span></span>
+            <label>City</label>
+          </div>
+        
+          <div class="txt_field">
+            <input type="text" name="state" required>
+            <span></span>
+            <label>State</label>
+          </div>
+          
+
+          <div class="txt_field">
+            <input type="time" name="start" required>
+            <span></span>
+            <label>Start time</label>
+          </div>
+          
+          <div class="txt_field">
+            <input type="time" name="end" required>
+            <span></span>
+            <label>End time</label>
+          </div>
+          
+        
+        <input type="submit"  value="Details" name="submit">
+      
+      </form>
+    </div>
+
+  </body>
+</html>

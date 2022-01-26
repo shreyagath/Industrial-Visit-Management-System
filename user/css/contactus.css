@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+.col
+{
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+.card-contact{
+    position: absolute;
+    top: 25%;
+    left: 18%;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 20px;  
+    padding: 20px;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    align-items: left;
+    color: white;
+    display: flex;
+    width: 70%;
+}
+
+.bg-image{
+    height: 100%;
+    background-image: url(../images/contactus.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;    
+    background-size: cover;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+::placeholder { 
+    color: rgb(0, 0, 0);
+    opacity: 1; 
+  }
+  
+  :-ms-input-placeholder { 
+    color: rgb(0, 0, 0);
+  }
+  
+  ::-ms-input-placeholder { 
+    color: rgb(0, 0, 0);
+  }
+#ip1 {
+    border-radius: 7px;
+    padding: 20px; 
+    width: 50%;
+    height: 15px;  
+    background-color: rgba(255,255,255,0.9);
+    font-size: 18px;
+    border: none;
+}
+
+#custom-button{
+    border-radius: 10px;
+    width: 240px;
+    height: 35px; 
+    font-size: 15px;
+    color:white;
+    background-color: red;
+}
+
+.heading-box{
+    text-align: center;
+    font-size: 35px;
+}
+
+.col p{
+    font-size: 24px;
+}
+
+.fab:hover{
+color: white;
+}
