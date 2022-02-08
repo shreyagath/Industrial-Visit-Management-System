@@ -22,10 +22,30 @@
 			<div class="center">
 				<h3>Book Your Visit Now!!</h3>
 					<div class="buttons">
-       					 <input class="search-btn" type="text" placeholder="search for your desired industry here">
-       						 <a class="search-btn" href="#"></a>
+       					 <input type="text" class="search-btn" value="" id="search" placeholder="search for your desired industry here" onchange="openPage()">
+							<a class="search-btn" href="#"></a>
      				 </div>
 			</div>
 	</div>
+
+	<script>
+        function openPage() {
+            var x = document.getElementById("search").value;
+
+            if (x === "Cognizant" || x === "TATA"|| x === "ZS" || x === "Tech" || x === "OLA" || x === "Amul") {
+                window.open("html/Cognizant.php" ||
+				"html/TATA.php"||
+				"html/ZS.php"||
+				"html/Tech.php"||
+				"html/OLA.php"||
+				"html/ZS.Amul", "_self");
+            }
+
+			else{
+				window.open("index.html", "_self");
+			}
+        }
+    </script>
+
 </body>
 </html>
