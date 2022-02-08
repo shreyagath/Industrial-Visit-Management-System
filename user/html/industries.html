@@ -25,8 +25,8 @@
 
     <div class="center">
       <div class="buttons">
-        <input class="search-btn" type="text" placeholder="search for your desired industry here">
-        <a class="search-btn" href="#"></a>
+        <input type="text" class="search-btn" value="" id="search" placeholder="search for your desired industry here" onchange="openPage()">
+		    <a class="search-btn" href="#"></a>
       </div>
     </div>
 
@@ -172,6 +172,25 @@
 <!--== End Recent Job Area Wrapper ==-->
 </main>
 
+
+<script>
+  function openPage() {
+      var x = document.getElementById("search").value;
+
+      if (x === "Cognizant" || x === "TATA"|| x === "ZS" || x === "Tech" || x === "OLA" || x === "Amul") {
+          window.open("Cognizant.php" ||
+  "TATA.php"||
+  "ZS.php"||
+  "Tech.php"||
+  "OLA.php"||
+  "ZS.Amul", "_self");
+      }
+
+else{
+  window.open("industries.html", "_self");
+}
+  }
+</script>
 
 </body>
 
